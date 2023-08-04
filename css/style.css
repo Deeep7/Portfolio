@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: white;
+  color: black;
+  transition: 2s;
+}
+
+.dark {
+  background: rgb(0, 0, 33);
+  color: white;
+  transition: 2s;
+}
+
+.bg-dark {
+  background: #2f2f56;
+}
+
+.display-none {
+  display: none;
+}
+
+#dark-btn {
+  padding: 16px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+#moon {
+  font-size: 2em;
+}
+
+#sun {
+  color: rgba(240, 67, 4, 0.788);
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+  background: #a2a2f5;
+}
+
+#mobile-btn {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #075ce1;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.fast-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 0px;
+  align-items: center;
+}
+
+.fast-section > div {
+  width: 33%;
+}
+
+.left-section {
+  font-size: 3em;
+}
+
+.right-section img {
+  width: 87%;
+}
+
+.color {
+  color: rgb(64 75 231);
+}
+
+.color-dark {
+  color: rgb(127, 5, 241);
+}
